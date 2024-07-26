@@ -1,0 +1,135 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+  background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: black;
+}
+
+.logo img {
+    width: 50px;
+}
+
+.nav__list {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav__item {
+    margin: 0;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.nav__link:hover {
+    color: #007BFF;
+}
+
+.section {
+    padding: 2rem;
+    text-align: center;
+}
+
+.section h1, .section h2 {
+    margin-bottom: 1rem;
+}
+
+.section p {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+.portfolio {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.portfolio__item {
+    width: 45%;
+    margin-bottom: 1rem;
+}
+
+.portfolio__item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: black;
+}
+
+.social-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0;
+}
+
+.social-list li {
+    margin: 0;
+}
+
+.social-list a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.social-list a:hover {
+    color: #007BFF;
+}
+
+.social-list i {
+    font-size: 1.5rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 80%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #97BC62;
+}
