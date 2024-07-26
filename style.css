@@ -1,10 +1,10 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Times new roman', 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     color: white;
-  background-color: black;
+    background-color: black;
 }
 
 header {
@@ -12,11 +12,12 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
+    color: #ccc;
     background-color: black;
 }
 
 .logo img {
-    width: 50px;
+    width: 130px; /* Increase the size of the logo */
 }
 
 .nav__list {
@@ -53,21 +54,35 @@ header {
     line-height: 1.6;
 }
 
+.align-right {
+    text-align: left;
+}
+
 .portfolio {
+    font-family: 'Times New Roman', Times, serif;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
 .portfolio__item {
+    font-size: 1.25rem;
     width: 45%;
     margin-bottom: 1rem;
 }
+/* Specific styles for the About section */
+#about {
+    font-size: 1.25rem; /* Increase font size to large */
+}
 
-.portfolio__item img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
+/* Styles for headings in sections */
+.section h1, .section h2 {
+    margin-bottom: 1rem;
+}
+
+.section p {
+    margin-bottom: 1rem;
+    line-height: 1.6;
 }
 
 footer {
@@ -100,6 +115,7 @@ footer {
 
 .social-list i {
     font-size: 1.5rem;
+
 }
 
 form {
@@ -122,14 +138,13 @@ form input, form textarea {
 
 form button {
     padding: 0.5rem 1rem;
-    border: none;
-    border-radius: 4px;
-    background-color: black;
-    color: white;
-    cursor: pointer;
-    transition: background-color 0.3s;
+    border: none
 }
 
-form button:hover {
-    background-color: #97BC62;
+
+/* Add class for smaller images */
+.small-image {
+    width: 300px;
 }
+
+
